@@ -25,7 +25,7 @@ export default function Signup(){
   }
 
     return(
-        <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
+        <form className="mt-8 space-y-6 bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10" onSubmit={handleSubmit}>
         <div className="">
         {
                 fields.map(field=>
